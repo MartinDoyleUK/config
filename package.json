@@ -1,28 +1,28 @@
 {
+  "$schema": "https://json.schemastore.org/package",
   "name": "@martindoyle/tsconfig",
   "version": "1.0.0",
   "description": "Common TSConfig files",
-  "files": [
-    "node-app.json",
-    "node-lib.json",
-    "web-app.json",
-    "web-lib.json"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MartinDoyleUK/martindoyle-tsconfig.git"
-  },
   "keywords": [
     "config",
     "tsconfig"
   ],
-  "author": "Martin Doyle",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MartinDoyleUK/martindoyle-tsconfig/issues"
-  },
   "homepage": "https://github.com/MartinDoyleUK/martindoyle-tsconfig#README.md",
+  "license": "MIT",
+  "author": "Martin Doyle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinDoyleUK/martindoyle-tsconfig.git"
+  },
+  "files": [
+    "node.json",
+    "web.json"
+  ],
+  "exports": {
+    "./node": "./node.json",
+    "./web": "./web.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
