@@ -1,11 +1,21 @@
-# Martin's web toolkit
+# Martin's TSConfig
 
 ## Installation
 
-To install the library:
+To install the configs:
 
-`npm i -D @martindoyleuk/web-toolkit`
+`npm i -D @martindoyle/tsconfig`
 
 ## Usage
 
-Either extend configs or use binaries
+Extend one of the available configs, either `node` or `web`, for example:
+
+```json
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@martindoyle/tsconfig/node",
+  "compilerOptions": {
+    "outDir": "dist",
+  },
+}
+```
