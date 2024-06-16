@@ -11,6 +11,7 @@ To install the configs:
 Extend one of the available configs, either `node` or `web`, for example:
 
 ```json
+// tsconfig.json
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@martindoyle/tsconfig/node",
