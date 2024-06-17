@@ -14,6 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/MartinDoyleUK/martindoyle-tsconfig.git"
   },
+  "type": "module",
   "files": [
     "_base.json",
     "node.json",
@@ -25,5 +26,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@martindoyle/eslint-config": "^1.1.0",
+    "eslint": "^9.5.0"
   }
 }

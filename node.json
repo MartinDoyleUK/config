@@ -4,7 +4,7 @@
     "lib": [
       "ESNext"
     ],
-    "module": "NodeNext",
+    "module": "NodeNext"
   },
   "extends": "./_base.json"
 }
