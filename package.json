@@ -15,6 +15,7 @@
     "url": "git+https://github.com/MartinDoyleUK/martindoyle-tsconfig.git"
   },
   "files": [
+    "_base.json",
     "node.json",
     "web.json"
   ],
